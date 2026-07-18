@@ -1,5 +1,5 @@
 
-# GCN Port: ReMined - Type A
+# GCN Port: Deathchase 3D - Type A
 
 
 ### About this document / Introduction
