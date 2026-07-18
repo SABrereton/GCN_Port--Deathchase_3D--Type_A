@@ -19,7 +19,7 @@ to port "Deathchase 3D" with minimal changes.
 GCN Port: Deathchase 3D - Type A is developed by Stuart Antony Brereton
 and the Great Collective Nobody.
 
-GCN Port: Deathchase 3D - Type A is a fork from version 0.9 of "Deathchase"
+GCN Port: Deathchase 3D - Type A is a fork from version 0.9 of "Deathchase 3D"
 by Paul Robson.
 
 "Deathchase 3D" is a remake by Paul Robson of the videogame "Deathchase".
