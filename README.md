@@ -22,6 +22,10 @@ and the Great Collective Nobody.
 GCN Port: Deathchase 3D - Type A is a fork from version 0.9 of "Deathchase"
 by Paul Robson.
 
+"Deathchase 3D" is a remake by Paul Robson of the videogame "Deathchase".
+Deathchase was developed by Mervyn Estcourt for the Sincair ZX Spectrum and
+released in 1983.
+
 Version 0.9 of "Deathchase 3D" was obtained from an archived copy of
 Paul Robson's website archived on 11th July 2007 by Internet Archive. (https://archive.org/ at the time of writing)
 
