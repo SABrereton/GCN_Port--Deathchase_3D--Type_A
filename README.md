@@ -39,7 +39,9 @@ The implementations that have currently been released can be found via the follo
 
 ### Legal / Licencing Information
 
-* Deathchase 3D
+* Deathchase 3D & GCN Port: Deathchase 3D - Type A
 
 Version 0.9 of Deathchase 3D is licenced under the terms of the
-GNU General Public License version 2.0 (GPLv2).
+GNU General Public License version 2.0 (GPLv2). Following the terms of said
+licence GCN Port: Deathchase 3D - Type A is also licenced under
+the GNU General Public License version 2.0 (GPLv2).
