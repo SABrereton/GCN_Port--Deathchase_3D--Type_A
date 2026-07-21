@@ -27,7 +27,7 @@ Deathchase was developed by Mervyn Estcourt for the Sincair ZX Spectrum and
 released in 1983.
 
 Version 0.9 of "Deathchase 3D" was obtained from an archived copy of
-Paul Robson's website archived on 11th July 2007 by Internet Archive. (https://archive.org/ at the time of writing)
+Paul Robson's website archived on 11th July 2007 by Internet Archive (https://archive.org/ at the time of writing).
 
 ### Implementations
 
