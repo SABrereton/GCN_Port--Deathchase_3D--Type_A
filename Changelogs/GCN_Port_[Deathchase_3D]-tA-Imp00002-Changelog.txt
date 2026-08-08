@@ -1,0 +1,115 @@
+
+                   GCN Port: Deathchase 3D - Type A
+                   --------------------------------
+                       Implementation: Imp00002           
+                       ------------------------
+                  
+                              Changelog
+                              ---------
+
+
+=== Version 1 - [08-08-2026] ===
+
+Consists of a conversion of...
+
+...Version 1 of Implementation Imp00001 of GCN Port: Deathchase 3D -
+Type A which is in a form targetted at hardware and software that
+feature keyboard and mouse as their primary user interface and
+predominantly uses the C programming language along with the Simple
+DirectMedia Layer (SDL) 1.2.X API...
+
+...to...
+
+...a form targetted at hardware and software that is compatible with
+Nintendo Wii systems predominantly using the C programming language,
+devkitPPC and the Simple DirectMedia Layer (SDL) 1.2.X API.
+
+
+Notes, observations and/or changes follow:
+
+    * Unlike version 1 of GCN Port: Deathchase 3D - Type A
+      - Implementation: Imp00001 this version does not use the
+      SDL compatible extention library "SDL_Image" so only uses the
+      .bmp image format.
+
+    * Using fixed 640x480 pixel display resolution since all
+      Nintendo Wii compatible hardware and software should include
+      this and no longer need to use code and assets which mitigate
+      the variations possible in the non-fixed hardware and software
+      which implementation Imp00001 targets.
+
+    * Changed use of "exit(0);" to "return 0;" when ending program.
+
+    * Changed input and input instructions from keyboard to
+      Wii Remote.
+
+    * No longer showing the mouse/pointing device cursor.
+
+
+----------------------------------------------------------------------
+changelog ABOVE: GCN Port: Deathchase 3D - Type A - Implementation: Imp00002
+
+
+++++ Forked from Version 1 of
+++++ GCN Port: Deathchase 3D - Type A - Implementation: Imp00001
+
+
+changelog BELOW: GCN Port: Deathchase 3D - Type A - Implementation: Imp00001
+----------------------------------------------------------------------
+
+
+=== Version 1 - [16-07-2026] ===
+
+Initial version.
+
+Consists of a fork from Version 0.9 of the game program "Deathchase 3D"
+by Paul Robson.
+
+This was obtained from an archived copy of Paul Robson's website
+archived on 11th July 2007 by Internet Archive (https://archive.org/).
+
+Notes, observations and/or changes follow:
+
+    * Added a "Front Matter" component to the program from which users
+      can set the parameters that they wish Deathchase 3D to use and
+      also find information such as how to play Deathchase 3D and
+      credits.
+
+    * Renamed the main() function of Deathchase 3D to original_main()
+      in-order to allow the program to begin in the new Front Matter
+      using a main() function there and added declaration of the
+      original_main() function prototype to dc.h.
+
+    * Moved the initialisation of the components of the "Glo" instance
+      of the "GLOBAL" struct to the main() function in
+      GCN_Front_Matter.c instead of the GLOInitialise() function in
+      globals.c.
+
+      Access to them is needed in the GCN Front Matter for setting
+      parameters which is first accessed prior to the use of
+      GLOInitialise().
+
+    * Added calls to "IOInitialise()" from original_main() when moving
+      from and back to the Front Matter code in-order to reset the
+      IO component(s) of Deathchase 3D.
+      
+      Deathchase 3D malfunctions without doing so.
+
+    * Included a section at the beginning of each source code file
+      which contains information about what program they are a
+      component of.
+
+
+----------------------------------------------------------------------
+changelog ABOVE: GCN Port: Deathchase 3D - Type A - Implementation: Imp00001
+
+
+++++ Forked from Version 0.9
+++++ of Deathchase 3D
+
+
+changelog BELOW: Deathchase 3D - Version 0.9
+----------------------------------------------------------------------
+
+
+N/A
