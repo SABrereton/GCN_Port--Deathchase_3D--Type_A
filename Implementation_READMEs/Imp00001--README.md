@@ -28,7 +28,7 @@ software that feature keyboard and mouse as their primary user interface.
 
 - Images
 
-  [Version 1.1 - Running on the 64bit x86 Microsoft Windows 11 Home operating system](../Images/Imp00001-v1p1--MS_Win_x86-32--capture01.png "Version 1.1 of implementation Imp00001")
+  [Version 1.1 - Running on the 64bit x86 Microsoft Windows 11 Home operating system](../Images/Imp00001-v1p1--MS_Win_x86-32--capture01.png "Version 1.1 of implementation Imp00001")\
   [Version 1 - Running on the 64bit x86 Microsoft Windows 11 Home operating system](../Images/Imp00001-v1--MS_Win_x86-32--capture01.png "Version 1 of implementation Imp00001")
 
 ---
