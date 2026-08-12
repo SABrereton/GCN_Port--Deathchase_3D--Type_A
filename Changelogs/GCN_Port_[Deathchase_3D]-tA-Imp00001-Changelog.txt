@@ -1,11 +1,31 @@
 
                    GCN Port: Deathchase 3D - Type A
-                   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+                   --------------------------------
                        Implementation: Imp00001           
-                       ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+                       ------------------------
                   
                               Changelog
-                              ¯¯¯¯¯¯¯¯¯
+                              ---------
+
+
+=== Version 1.1 - [12-08-2026] ===
+
+* Corrected the misspelling of "implementation" in the title on the
+  "About this Implementation" screen.
+
+* Removed the extra space between the "Deathchase 3D" and "- Type"
+  portions of the program title which is displayed on every screen of
+  the front matter.
+
+* Altered the vehicle controls in Deathchase 3D and also altered
+  instructional information in the front matter to match the
+  altered controls.
+
+  The previous controls were [K] and [M] to accelerate and decelerate,
+  [Z] and [X] for steering and [space] to fire missiles.
+
+  The altered controls are [W] and [S] to accelerate and decelerate,
+  [A] and [D] for steering and [space] to fire missiles.
 
 
 === Version 1 - [16-07-2026] ===
